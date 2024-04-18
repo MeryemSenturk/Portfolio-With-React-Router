@@ -17,13 +17,17 @@ body{
 
 }
 
-body::after{
-  width: 100%;
- /* background:linear-gradient(to right,
-        rgba(#272727, 0.9),
-        rgba(#272727, 0.3),
-    ); */
-}
+ /* bu şekilde yapınca linklerin hoverları kayboluyor? */
+ 
+/* body::before {
+content: "";
+display:block;
+background-color: #27272750;
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+} */
 
 
 a{
@@ -34,3 +38,4 @@ a{
 h1,h2,h3{
     font-weight: 400;
 }
+

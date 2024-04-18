@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem 5rem;
+  padding: 2rem 6rem;
   gap: 1rem 0;
 }
 .projects__item {
@@ -52,14 +52,15 @@ img {
   padding: 2rem;
 }
 
-.social-icons {
+.projects-social-icons {
   display: flex;
   flex-direction: column;
   position: fixed;
   bottom: 1rem;
   /* @extend .link-style; */
 }
-.copyright {
+
+.projects-copyright {
   position: fixed;
   bottom: 1rem;
   right: 3rem;

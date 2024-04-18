@@ -59,7 +59,7 @@ const About = () => {
       </div>
 
       <footer className="vertical">
-        <div className="social-icons">
+        <div className="about-social-icons">
           <a href="#">
             <FaTwitter className="fab fa-twitter fa-2x"></FaTwitter>
           </a>
@@ -73,7 +73,7 @@ const About = () => {
             <FaGithub className="fab fa-github fa-2x"></FaGithub>
           </a>
         </div>
-        <div className="copyright">&copy; Copyright 2023</div>
+        <div className="about-copyright">&copy; Copyright 2023</div>
       </footer>
     </>
   );

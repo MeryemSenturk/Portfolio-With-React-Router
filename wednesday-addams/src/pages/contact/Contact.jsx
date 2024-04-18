@@ -1,6 +1,14 @@
 import React from "react";
-import "./Contact.css"
-import { FaTwitter, FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import "./Contact.css";
+import {
+  FaTwitter,
+  FaFacebook,
+  FaInstagram,
+  FaGithub,
+  FaEnvelope,
+  FaMobile,
+  FaMap,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -9,15 +17,15 @@ const Contact = () => {
         <h2>Contact Me ...</h2>
         <div className="contact__list">
           <div className="contact__item">
-            <i className="fas fa-envelope"></i> Email
+            <FaEnvelope className="fas fa-envelope"></FaEnvelope> Email
             <div className="text-secondary">wednesday@nevermoreacademy.edu</div>
           </div>
           <div className="contact__item">
-            <i className="fas fa-mobile-alt"></i> Phone
+            <FaMobile className="fas fa-mobile-alt"></FaMobile> Phone
             <div className="text-secondary">+40 (571) 360-1234</div>
           </div>
           <div className="contact__item">
-            <i className="fas fa-map-marker-alt"></i> Address
+            <FaMap className="fas fa-map-marker-alt"></FaMap> Address
             <div className="text-secondary">
               Strada Zamorei 1, Bușteni 105500, Romania
             </div>
@@ -26,7 +34,7 @@ const Contact = () => {
       </main>
 
       <footer className="middle">
-        <div className="social-icons">
+        <div className="contact-social-icons">
           <a href="#">
             <FaTwitter className="fab fa-twitter fa-2x"></FaTwitter>
           </a>
@@ -40,7 +48,7 @@ const Contact = () => {
             <FaGithub className="fab fa-github fa-2x"></FaGithub>
           </a>
         </div>
-        <div className="copyright">&copy; Copyright 2023</div>
+        <div className="contact-copyright">&copy; Copyright 2023</div>
       </footer>
     </>
   );

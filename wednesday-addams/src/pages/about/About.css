@@ -53,14 +53,14 @@
    
 }
 
- .social-icons{
+ .about-social-icons{
         display: flex;
         flex-direction: column;
         position: fixed;
         bottom: 1rem;
         /* @extend .link-style; */
     }
-    .copyright{
+    .about-copyright{
         position: fixed;
         bottom: 1rem;
         right: 3rem;

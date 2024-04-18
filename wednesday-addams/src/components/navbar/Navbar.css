@@ -1,0 +1,42 @@
+.nav {
+  /* border: 2px solid red; */
+  height: 10vh;
+  padding: 1rem;
+}
+
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1.5rem;
+}
+
+.nav__link {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 1s;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.nav__link:hover {
+  color: #ff652f;
+}
+ .nav__link:active {
+  color: #ff652f;
+  }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

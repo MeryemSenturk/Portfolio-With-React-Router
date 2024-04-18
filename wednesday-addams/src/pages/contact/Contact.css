@@ -32,3 +32,16 @@
   .text-secondary {
     color: #ff652f;
   }
+
+
+    .middle{
+    border: 2px solid red;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    /* @extend .link-style; */
+}

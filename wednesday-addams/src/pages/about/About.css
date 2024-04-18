@@ -42,3 +42,28 @@
 .about__job h6 {
   margin: 0.3rem 0;
 }
+
+
+.vertical{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem;
+   
+}
+
+ .social-icons{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 1rem;
+        /* @extend .link-style; */
+    }
+    .copyright{
+        position: fixed;
+        bottom: 1rem;
+        right: 3rem;
+        /* transform: rotate(90deg) translate(-3rem, -5rem); */
+        writing-mode: vertical-lr;
+    }

@@ -8,19 +8,19 @@
     
 }
 
-footer.horizontal{
+.horizontal{
     border: 2px solid red;
     height: 10vh;
     display:flex ;
     justify-content: space-between;
     align-items: flex-end;
     padding: 1rem;
-    /* @extend .link-style; */
+    @extend .link-style;
 
 }
 
-footer.vertical{
-     /* display: flex; */
+.vertical{
+     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 2rem;
@@ -39,10 +39,10 @@ footer.vertical{
         bottom: 1rem;
         right: 3rem;
        /* transform: rotate(90deg) translate(-3rem, -5rem); */
-        writing-mode: vertical-lr;
+        /* writing-mode: vertical-lr; */
     }
 
-footer.middle{
+/* footer.middle{
   border: 2px solid red;
     height: 20vh;
     display: flex;
@@ -51,5 +51,5 @@ footer.middle{
     align-items: center;
     padding: 1rem;
     gap: 1rem;
-    /* @extend .link-style; */
-}
+    @extend .link-style;
+} */
